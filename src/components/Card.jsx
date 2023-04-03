@@ -9,29 +9,14 @@ export default function Card() {
           src="img/autos.png"
         ></img>
         <h2 style={styledTitle}>Autos y camionetas</h2>
-        <p style={styledTitle}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ad
-          dolores nobis fugiat a illum nisi, iusto velit assumenda et,
-          consequuntur quas modi unde maiores rem. Beatae, et? Fugit, placeat
-        </p>
       </div>
       <div style={styledDiv}>
         <img style={styledImg} src="img/camiones.png"></img>
         <h2 style={styledTitle}>Camiones</h2>
-        <p style={styledTitle}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ad
-          dolores nobis fugiat a illum nisi, iusto velit assumenda et,
-          consequuntur quas modi unde maiores rem. Beatae, et? Fugit, placeat
-        </p>
       </div>
       <div style={styledDiv}>
         <img style={styledImg} src="img/agricola.png"></img>
         <h2 style={styledTitle}>Agricola</h2>
-        <p style={styledTitle}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, ad
-          dolores nobis fugiat a illum nisi, iusto velit assumenda et,
-          consequuntur quas modi unde maiores rem. Beatae, et? Fugit, placeat
-        </p>
       </div>
     </>
   );
