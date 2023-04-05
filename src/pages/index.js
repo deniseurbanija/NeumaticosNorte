@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Cards from "@/components/Cards";
-import { Inter } from "next/font/google";
+import NavBar from "@/components/NavBar";
 import styles from "@/styles/Home.module.css";
-
-//const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -15,34 +13,13 @@ export default function Home() {
         <link rel="icon" href="img/bridgestone.png" />
       </Head>
       <main className={styles.main}>
-        <div style={styledTitle}>
-          <img style={logo} src="img/logo.png"></img>
-          <h1 style={titulo}>Neumaticos Norte</h1>
+        <div className={styles.header}>
+          <img className={styles.logo} src="img/logo.png"></img>
+          <h1 className={styles.titulo}>Neumáticos Norte</h1>
         </div>
+        <NavBar />
         <Cards />
       </main>
     </>
   );
 }
-
-const styledTitle = {
-  // backgroundColor: "red",
-  display: "flex",
-  width: "100%",
-  height: "140px",
-  margin: "0",
-  color: "black",
-  flexWrap: "nowrap",
-  justifyContent: "space-between",
-  alignItem: "center",
-};
-const logo = {
-  width: "10%",
-  margin: "0px 30px",
-};
-
-const titulo = {
-  display: "flex",
-  fontSize: "60px",
-  margin: "20px 30px",
-};

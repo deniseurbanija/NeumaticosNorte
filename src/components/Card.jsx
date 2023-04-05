@@ -1,48 +1,29 @@
+import autos from "@/pages/autos";
+import styles from "@/styles/Card.module.css";
+
 export default function Card() {
   return (
     <>
-      <div style={styledDiv}>
+      <a href="autos" className={styles.div}>
         <img
-          style={styledImg}
+          className={styles.img}
           width="200px"
           height="250px"
           src="img/autos.png"
         ></img>
-        <h2 style={styledTitle}>Autos y camionetas</h2>
-      </div>
-      <div style={styledDiv}>
-        <img style={styledImg} src="img/camiones.png"></img>
-        <h2 style={styledTitle}>Camiones</h2>
-      </div>
-      <div style={styledDiv}>
-        <img style={styledImg} src="img/agricola.png"></img>
-        <h2 style={styledTitle}>Agricola</h2>
-      </div>
+        <h2 className={styles.title}>Autos y camionetas</h2>
+        <p>Lorem ipsum dolor sit</p>
+      </a>
+      <a href="camiones" className={styles.div}>
+        <img className={styles.img} src="img/camiones.png"></img>
+        <h2 className={styles.title}>Camiones</h2>
+        <p>Lorem ipsum dolor sit</p>
+      </a>
+      <a href="agricola" className={styles.div}>
+        <img className={styles.img} src="img/agricola.png"></img>
+        <h2 className={styles.title}>Agrícola</h2>
+        <p>Lorem ipsum dolor sit</p>
+      </a>
     </>
   );
 }
-
-const styledImg = {
-  objectFit: "cover",
-  width: "100%",
-  height: "300px",
-  marginBottom: "0.5rem",
-};
-
-const styledDiv = {
-  backgroundColor: "white",
-  width: "400px",
-  flexDirection: "column",
-  justifyContent: "center",
-  alignItems: "center",
-  margin: "2rem 0.5rem",
-  borderRadius: "0.3rem",
-  padding: "1rem",
-  boxShadow: "0px 20px 20px 0px rgba(0, 0, 0, 0.158)",
-  transition: "all ease 0.5s",
-  cursor: "pointer",
-};
-
-const styledTitle = {
-  color: "black",
-};

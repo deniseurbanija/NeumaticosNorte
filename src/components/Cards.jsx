@@ -1,20 +1,10 @@
 import Card from "@/components/Card";
+import styles from "@/styles/Cards.module.css";
+
 export default function Cards() {
   return (
-    <div style={cardContainer}>
+    <div className={styles.container}>
       <Card />
     </div>
   );
 }
-
-const cardContainer = {
-  //backgroundColor: "red",
-  display: "flex",
-  alignItems: "center",
-  flexDirection: "row",
-  justifyContent: "center",
-  width: "90vw",
-  padding: "1rem",
-  flexWrap: "nowrap",
-  margin: "0 ",
-};
