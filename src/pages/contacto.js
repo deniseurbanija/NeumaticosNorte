@@ -1,19 +1,32 @@
+import Layout from "@/components/Layout";
 import styles from "@/styles/Home.module.css";
-import NavBar from "@/components/NavBar";
 
 export default function Contacto() {
   return (
     <>
-      <main className={styles.main}>
-        <div className={styles.header}>
-          <img className={styles.logo} src="img/logo.png"></img>
-          <h1 className={styles.titulo}>Neumaticos Norte</h1>
-        </div>
-        <NavBar />
-        <div>
+      <Layout>
+        <div className={styles.div}>
           <h1>Contacto</h1>
+          <p>
+            <span>Direccion: </span> Av. 25 de mayo 1170 - Resistencia, Chaco
+          </p>
+          <p>
+            <span>Telefono: </span> (0362) 442-9900
+          </p>
+          <p>
+            <span>Celular: </span> (0362) 421-3700
+          </p>
+          <p>
+            <span>Email: </span> neumaticosnortesrl@hotmail.com
+          </p>
+          <p>
+            <span>Facebook: </span> Neumaticos Norte
+          </p>
+          <p>
+            <span>Instagram: </span> @neumaticosnorte
+          </p>
         </div>
-      </main>
+      </Layout>
     </>
   );
 }
