@@ -15,7 +15,6 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.header}>
           <img className={styles.logo} src="img/logo.png"></img>
-          <h1 className={styles.titulo}>Neumáticos Norte</h1>
         </div>
         <NavBar />
         <Cards />

@@ -10,7 +10,9 @@ export default function Contacto() {
           <h1 className={styles.titulo}>Neumaticos Norte</h1>
         </div>
         <NavBar />
-        <div></div>
+        <div>
+          <h1>Contacto</h1>
+        </div>
       </main>
     </>
   );
