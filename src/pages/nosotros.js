@@ -1,11 +1,9 @@
-import Layout from "@/components/Layout";
+import styles from "@/styles/Home.module.css";
 
 export default function SobreNosotros() {
   return (
     <>
-      <Layout>
-        <h1>Sobre Nosotros</h1>
-      </Layout>
+      <h1 className={styles.div}>Sobre Nosotros</h1>
     </>
   );
 }
