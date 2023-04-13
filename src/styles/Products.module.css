@@ -1,0 +1,27 @@
+.div {
+  display: flex;
+  height: 100px;
+  width: 55rem;
+  background-color: aliceblue;
+  margin: 20px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.417);
+  border-radius: 5px;
+}
+
+.div:hover {
+  border: 6px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .div {
+    width: 90%;
+    margin: 1rem 0.5rem;
+    font-size: smaller;
+  }
+  .h4 {
+    display: none;
+  }
+}
