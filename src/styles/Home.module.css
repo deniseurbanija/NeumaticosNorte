@@ -35,9 +35,22 @@
   padding: 3rem;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.417);
 }
+.texto {
+  font-size: medium;
+  height: 250px;
+  margin: 25px 0;
+}
 
 @media screen and (max-width: 768px) {
   .header {
     justify-content: center;
+  }
+
+  .div {
+    display: flex;
+    font-size: small;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
   }
 }
