@@ -1,23 +1,24 @@
 import styles from "@/styles/NavBar.module.css";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
     <nav className={styles.nav}>
       <ul className={styles.ul}>
         <li>
-          <a className={styles.a} href="/">
+          <Link className={styles.a} href="/">
             Inicio
-          </a>
+          </Link>
         </li>
         <li>
-          <a className={styles.a} href="nosotros">
+          <Link className={styles.a} href="nosotros">
             Sobre nosotros
-          </a>
+          </Link>
         </li>
         <li>
-          <a className={styles.a} href="contacto">
+          <Link className={styles.a} href="contacto">
             Contacto
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
