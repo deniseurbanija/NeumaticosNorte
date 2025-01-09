@@ -1,9 +1,8 @@
 import Card from "@/components/Card";
-import styles from "@/styles/Cards.module.css";
 
 export default function Cards() {
   return (
-    <div className={styles.container}>
+    <div className="flex items-center justify-center flex-row  p-4 flex-nowrap m-0 ">
       <Card />
     </div>
   );

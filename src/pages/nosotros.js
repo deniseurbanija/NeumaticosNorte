@@ -1,18 +1,16 @@
-import styles from "@/styles/Home.module.css";
-
 export default function SobreNosotros() {
   return (
-    <div className={styles.div}>
-      <h1>Sobre Nosotros</h1>
-      <p className={styles.texto}>
+    <div className="bg-white w-[60%] h-[60%] flex flex-col justify-center items-center my-8 mx-2 rounded-md p-12 shadow-lg shadow-[rgba(0,0,0,0.417)] mt-6 mb-6">
+      <h1 className="font-bold">Sobre Nosotros</h1>
+      <p>
         En Neumáticos Norte, somos líderes en la región brindando soluciones
         integrales en neumáticos, servicios automotrices y productos
         relacionados. Desde nuestros inicios, nos hemos destacado por ofrecer
         calidad, confianza y un servicio profesional adaptado a las necesidades
         de nuestros clientes.
       </p>
-      <h2>Nuestra Red de Sucursales</h2>
-      <p className={styles.texto}>
+      <h2 className="font-bold">Nuestra Red de Sucursales</h2>
+      <p>
         Casa Central - Posadas, Misiones Ubicados en Ruta 12, N°8012, Km 5 (Tel:
         0376-4481555), contamos con una moderna planta de recapados Bandag para
         neumáticos de camiones, reconocida por Bridgestone/Bandag por su

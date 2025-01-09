@@ -1,22 +1,30 @@
-import styles from "@/styles/NavBar.module.css";
 import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav className={styles.nav}>
-      <ul className={styles.ul}>
+    <nav className="flex w-full h-[45px] bg-red-800 shadow-[0px_10px_10px_0px_rgba(0,0,0,0.249)]">
+      <ul className="list-none flex w-full my-2 items-center justify-around">
         <li>
-          <Link className={styles.a} href="/">
+          <Link
+            href="/"
+            className="no-underline text-white hover:text-gray-400"
+          >
             Inicio
           </Link>
         </li>
         <li>
-          <Link className={styles.a} href="nosotros">
+          <Link
+            href="/nosotros"
+            className="no-underline text-white hover:text-gray-400"
+          >
             Sobre nosotros
           </Link>
         </li>
         <li>
-          <Link className={styles.a} href="contacto">
+          <Link
+            href="/contacto"
+            className="no-underline text-white hover:text-gray-400"
+          >
             Contacto
           </Link>
         </li>

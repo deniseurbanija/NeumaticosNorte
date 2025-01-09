@@ -23,19 +23,6 @@
   margin: 1rem 3rem;
 }
 
-.div {
-  background-color: rgb(255, 255, 255);
-  width: 60%;
-  height: 60%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0.5rem;
-  border-radius: 0.3rem;
-  padding: 3rem;
-  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.417);
-  margin: 25px 0;
-}
 .texto {
   font-size: medium;
   margin: 10px 0;
